@@ -1,0 +1,200 @@
+@import url(normalize.css);
+@import url(../fonts/fonts.css);
+
+body
+{
+	font: 16px/1.2 Arial;
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+/*********HEADER**********/
+
+#header {
+	background-color: #0092ff;
+	padding: 25px 30px;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+#header #logo {
+	text-align: center;
+	margin-top: 10px;
+}
+
+ .top-nav  {
+	margin-top: -35px;
+}
+
+#header .back {
+	float: left;
+}
+
+.back {
+	width:31px;
+	height: 31px;
+	text-indent: -9999px;
+	background: url(../images/back-button.png) no-repeat; 
+}
+
+.top-nav h4{
+	float: right;
+	margin: 0;
+	padding-right: 10px;
+	text-align: center;
+	line-height: 30px;
+	width: 115px;
+	height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 13px;
+	font-family: aktiv_groteskmedium;
+	background: #001d33 url(../images/menu-button.png) no-repeat top right;
+}
+
+.top-nav .toggle {
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	background: url(../images/toggle.png);
+	border-radius: 0;
+	text-indent: -9999px;
+	cursor: pointer;
+	padding-right: 0;
+	margin-top: 5px;
+}
+
+.nav-items {
+	display: none;
+}
+
+/*******CONTENT*******/
+
+.content {
+	padding: 0 30px;
+	padding-bottom:  120px;
+        background-color: #f4f6f7;
+}
+
+.left {
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+/********BUILDING BLOCK*********/
+
+.building {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 30px;
+	padding-top: 1px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #fff;
+	margin-bottom: 30px;
+	min-height: 210px;
+}
+
+img.rounded {
+	float: left;
+	margin-top: 30px;
+}
+
+.building h1 {
+	margin-left: 180px;
+	margin-top: 50px;
+	color: #6e768f;
+	font-size: 33px;
+	font-family: aktiv_groteskregular;
+}
+
+.building .address {
+	margin-left: 180px;
+	margin-top: 40px;
+	font-size: 18px;
+	color: #b6bbd0;
+        font-family: aktiv_groteskregular;
+}
+
+.locked {
+	width: 63px;
+	height: 78px;
+	margin: auto;
+	margin-top: 66px;
+}
+
+.opacity {
+	opacity: .5;
+}
+
+/********FOOTER******/
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 118px;
+	background-color: red;
+}
+
+footer ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+
+footer ul li {
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+
+footer a {
+	display: block;
+	height: 100%;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-color: #0092ff;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 80px;
+	color: #fff;
+	font-size: 17px;
+	font-family: aktiv_groteskmedium;
+}
+
+footer .btn1 {
+	background-image: url(../images/ft-btn1.png);
+}
+
+footer .btn2 {
+	background-image:  url(../images/ft-btn2.png);
+}
+
+footer .btn3 {
+	background-image: url(../images/ft-btn3.png);
+}
+
+footer .btn4 {
+	background-image: url(../images/ft-btn4.png);
+}
+
+footer a.active{
+	background-color: #001d33;
+}

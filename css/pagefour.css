@@ -1,0 +1,46 @@
+.content {
+	padding: 30px;
+	 background-color:  #f4f6f7;
+	 margin-top: 99px;
+	 margin-bottom: 120px;
+}
+
+.options {
+	text-align: center;
+}
+
+.options p {
+	color: #b6bbd0;
+	font-size: 25px;
+        font-family: aktiv_groteskregular;
+}
+
+.options ul li {
+	display: inline-block;
+	width: 40px;
+	height: 35px;
+	background: url(../images/elipse.png) no-repeat -45px 0 ;
+	margin-right: 10px;
+}
+
+.options ul li.active {
+	background: url(../images/elipse.png) no-repeat 0 0 ;	
+} 
+
+/******BUTTON******/
+.awards {
+        width: 100%;
+        min-width: 200px;
+        max-width: 410px;
+        background-color: #0092ff;
+        font-size: 25px;
+        margin: 0 auto;
+        display: block;
+        border: 0;
+        outline: none;
+        border-radius: 5px;
+        padding: 30px;
+        color: #fff;
+        font-family: aktiv_groteskregular;
+}
+

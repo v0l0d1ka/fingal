@@ -1,0 +1,30 @@
+body {
+	padding: 0 50px !important;
+	background-color: #0092ff !important;
+}
+
+#header{
+	margin-top: 80px; 
+	background-color: #0092ff !important;
+	border: 0;
+}
+
+#logo{
+	width: 331px;
+	height: 56px;
+	margin: 0 auto;
+}
+
+
+@media  screen 
+and (max-width : 370px) 
+ {
+
+img {
+		width: 280px;
+		display: block;
+		margin: auto;
+	}
+
+	
+}

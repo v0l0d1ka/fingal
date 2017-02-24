@@ -1,0 +1,225 @@
+.content {
+	margin-bottom: 100px;
+	padding-right: 10px;
+}
+
+.icon {
+	position: relative;
+	top: 5px;
+}
+
+.icon.heart {
+	width: 25px;
+	height: 25px;
+	background: url(../images/heart-icon.png) center;
+	display: inline-block; 
+	margin-right: 5px;
+}
+
+section {
+    width: 640px;
+}
+
+#popular h2 {
+	color: #0092ff;
+	line-height: 31px;
+	font-size: 17px;
+        font-family: aktiv_groteskmedium;
+}
+
+article {
+	width: 280px;
+	height: 200px;
+	padding: 20px 0 0 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	text-align: left;
+	position: relative;
+
+}
+
+article h3 {
+	font-size: 14px;
+	margin-top: 0;
+	padding-left: 20px;
+	margin-bottom: 10px;
+        font-family: aktiv_groteskregular;
+}
+
+article h1 {
+	font-size: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+	margin-top: 0;
+	font-family: aktiv_grotesklight;
+}
+
+article ul {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	height: 49px;
+	width: 93%;
+	border-top: 1px solid rgba(204, 204, 204, .5); 
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+}
+
+article ul li {
+	display: inline-block;
+
+}
+
+article ul li:first-child {
+	width: 60%;
+}
+
+article ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 49px;
+	display: inline-block;
+        font-size: 14px;
+        font-family: aktiv_groteskregular;
+}
+
+article ul li a.like {
+	border-left: 1px solid rgba(204, 204, 204, .5);
+	padding-left: 20px;
+	width: 70px;
+}
+
+.sm-heart {
+	width: 15px;
+	height: 17px;
+	background: url(../images/sm-heart.png) no-repeat 0 5px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.arrow {
+	display: inline-block;
+	width: 8px;
+	height: 14px;
+	background: url(../images/arrow.png) 0 2px;
+	margin-right: 10px;
+}
+
+
+.first {
+	background: url(../images/first-art.png);
+}
+
+.first ul {
+	border-top-color: #4e2565; 
+}
+
+.first .like {
+	border-left-color: #4e2565;
+}
+
+.second {
+	background: url(../images/sec-ar.png);
+}
+
+.second ul {
+	border-top-color: #3bb93f; 
+}
+
+.second .like {
+	border-left-color: #3bb93f;
+}
+
+#food h2 {
+	color: #ff0078;
+	line-height: 31px;
+	font-size: 17px;
+        font-family: aktiv_groteskmedium;
+}
+
+.icon.food {
+	width: 25px;
+	height: 25px;
+	background: url(../images/food-icon.png) center;
+	display: inline-block; 
+	margin-right: 5px;
+}
+
+.third {
+	background: url(../images/third-art.png);
+}
+
+.third ul {
+	border-top-color: #ccc; 
+}
+
+.third .like {
+	border-left-color: #ccc;
+}
+
+.four {
+	background: url(../images/four-art.png);
+}
+
+.four ul {
+	border-top-color: #ccc; 
+}
+
+.four .like {
+	border-left-color: #ccc;
+}
+
+#hotels h2 {
+	color: #16b11a;
+	line-height: 31px;
+	font-size: 17px;
+        font-family: aktiv_groteskmedium;
+}
+
+.icon.case {
+	width: 25px;
+	height: 25px;
+	background: url(../images/case-icon.png) center;
+	display: inline-block; 
+	margin-right: 5px;
+}
+
+.five {
+	background: url(../images/five-art.png);
+}
+
+.six {
+	background: url(../images/six-art.png);
+}
+
+#shop h2 {
+	color: #f8a900;
+	line-height: 31px;
+	font-size: 17px;
+        font-family: aktiv_groteskmedium;
+}
+
+.icon.shop {
+	width: 25px;
+	height: 25px;
+	background: url(../images/shop-icon.png) center;
+	display: inline-block; 
+	margin-right: 5px;
+}
+
+.seven {
+	background: url(../images/seven-art.png);
+}
+
+/*@media  screen and (max-width : 480px) {
+	.left, .right {
+		display: block;
+		margin: auto;
+		margin-bottom: 30px;
+		float: none;
+	}
+}*/
